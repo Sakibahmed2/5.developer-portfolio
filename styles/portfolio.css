@@ -149,3 +149,33 @@ section{
 
 /* Resume styles */
 
+.resume-content{
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-tittle{
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-item .tittle{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item .sub-tittle{
+    font-size: 20px;
+    color: #757575;
+}
+.resume-item .desctiption{
+    font-size: 16px;
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
