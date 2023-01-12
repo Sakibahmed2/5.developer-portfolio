@@ -240,3 +240,58 @@ input{
 .contact{
     text-decoration: none;
 }
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+    nav,
+    .banner, 
+    .skill-container,
+    .resume-content, 
+    .about-info-container, 
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    nav ul{
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+    }
+    nav .primary-btn{
+        margin-top: 0;
+        font-weight: normal;
+        height: 80px;
+    }
+    .contact-btn{
+        margin-top: 10px;
+    }
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 922px) {
+    .about{
+        padding: 0;
+    }
+    .contact{
+        padding: 0;
+        flex-direction: column;
+    }
+}
